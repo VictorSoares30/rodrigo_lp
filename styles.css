@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Signatra';
+    src: url('./font/Signatra.otf') format('opentype'),
+         url('./font/Signatra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.top {
+    background-image: url('./img/loira.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+    display: flex;
+    align-items: center;
+    padding: 0 22%;
+}
+
+.main-content {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    row-gap: 30px;
+}
+
+.semana-box {
+    margin-top: 0;
+    height: 42px;
+}
+
+.semana {
+    font-family: 'Signatra';
+    font-size: 3rem;
+}
+
+.ingles-box {
+    background-color: #0096ff;
+    width: 60%;
+    text-align: center;
+}
+
+.ingles {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.ingles-box i {
+    font-size: 1.8rem;
+}
+
+.line-2 p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+} 
+
+.line-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info i {
+    color: #0096ff;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.info img {
+    width: 1.4rem;
+    height: auto;
+}
+
+.data {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+input {
+    background-color: #323232;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding-inline-start: 30px;
+    font-size: 1.2rem;
+    color: #9e9e9e;
+    box-shadow: 0 0 8px 0 #bbb4b4;
+}
+
+button {
+    height: 40px;
+    background-color: #0096ff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #0096ff;
+    transform: scale(1.03);
+}
+
+.cards {
+    height: 45em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.title-container {
+    height: 8em;
+}
+
+.title {
+    color: #000;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #000;
+    width: 18em;
+    height: 18em;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 45px;
+    height: 45px;
+}
+
+.three {
+    padding: 30px 30px 15px 30px;
+}
+
+.three img {
+    width: 32px;
+    height: 38px;
+}
+
+.fa-shoe-prints {
+    width: 50px;
+}
+
+.title-card {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+footer {
+    height: 60em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.chevron-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5%;
+}
+
+.chevron-circle i {
+    color: #0096ff;
+    font-size: 3rem;
+}
+
+.cadastro-box {
+    width: 100%;
+    height: 50%;
+    background-color: #0096ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.cadastro {
+    width: 33%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fundo-preto {
+    width: 100%;
+    height: 50%;
+    background-color: #000;
+}
+
+.title-footer {
+    width: 100%;
+}
+
+.title-footer h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.span-footer {
+    width: 100%;
+} 
+
+.span-footer h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.button-footer button {
+    width: 100%;
+    height: 50px;
+    color: #000;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.button-footer button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+@media(max-width: 1536px) {
+    .top {
+        padding: 0 15%;
+    }
+    .main-content {
+        width: 45%;
+    }
+    .semana {
+        font-size: 2.5rem;
+    }
+    .ingles {
+        font-size: 1.5rem;
+    }
+    .line-2 p {
+        font-size: 1.5rem;
+    }
+    .data {
+        font-size: 1rem;
+    }
+    input {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 1rem;
+    }
+    .center-card {
+        width: 70%;
+    }
+    .card {
+        width: 17em;
+        height: 16em;
+        padding: 25px;
+    }
+    .card img {
+        width: 40px;
+        height: 40px;
+    }
+    .three img {
+        width: 28px;
+        height: 34px;
+    }
+    .title-card {
+        font-size: 1rem;
+    }
+    .card-text {
+        height: 40%;
+        font-size: 1rem;
+    }
+    .cadastro {
+        width: 40%;
+    }
+    .span-footer h3 {
+        font-size: 1.8rem;
+    }
+    .button-footer button {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    .main-content {
+        width: 50%;
+    }
+    .semana {
+        font-size: 2.3rem;
+    }
+    .ingles {
+        font-size: 1.3rem;
+    }
+    .line-2 p {
+        font-size: 1.3rem;
+    }
+    .data {
+        font-size: 0.8rem;
+    }
+    input {
+        font-size: 0.8rem;
+    }
+    .center-card {
+        width: 75%;
+    }
+    .card {
+        width: 14em;
+        height: 13em;
+    }
+    .card img {
+        width: 35px;
+        height: 35px;
+    }
+    .three img {
+        width: 25px;
+        height: 30px;
+    }
+    .title-card {
+        font-size: 0.8rem;
+    }
+    .card-text {
+        height: 40%;
+        font-size: 0.8rem;
+    }
+    .chevron-circle {
+        width: 80px;
+        height: 80px;
+    }
+    .chevron-circle i {
+        font-size: 2.5rem;
+    }
+    .span-footer h3 {
+        font-size: 1.5rem;
+    }
+    .button-footer button {
+        height: 45px;
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 876px) {
+    .top {
+        padding: 0 5%;
+    }
+    .main-content {
+        width: 50%;
+    }
+    .semana {
+        font-size: 2.1rem;
+    }
+    .ingles {
+        font-size: 1.1rem;
+    }
+    .line-2 p {
+        font-size: 1.1rem;
+    }
+    .data {
+        font-size: 0.7rem;
+    }
+    input {
+        font-size: 0.7rem;
+    }
+    button {
+        font-size: 0.9rem;
+    }
+    .center-card {
+        width: 90%;
+    }
+    .card {
+        width: 13em;
+        height: 12em;
+        padding: 20px;
+    }
+    .card img {
+        width: 32px;
+        height: 32px;
+    }
+    .three img {
+        width: 22px;
+        height: 27px;
+    }
+    .card-text {
+        height: 40%;
+        font-size: 0.7rem;
+    }
+    .title-footer {
+        font-size: 1.5rem;
+    }
+    .span-footer h3 {
+        font-size: 1.3rem;
+    }
+    .button-footer button {
+        height: 45px;
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:480px) {
+    .top {
+        background-position: 60% 50%;
+    }
+    .main-content {
+        height: 100%;
+        padding: 20px 0;
+        row-gap: 50px;
+    }
+    .ingles-box {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+    }
+    .line-3 {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .card {
+        width: 8.5em;
+        height: 11em;
+        padding: 10px;
+    }
+    .card img {
+        width: 26px;
+        height: 26px;
+    }
+    .three img {
+        width: 18px;
+        height: 23px;
+    }
+    .title-card {
+        font-size: 0.7rem;
+    }
+    .card-text {
+        height: 40%;
+        font-size: 0.6rem;
+    }
+    .cadastro {
+        width: 80%;
+    }
+    .title-footer {
+        font-size: 1.3rem;
+    }
+    .span-footer h3 {
+        font-size: 1.1rem;
+    }
+    .button-footer button {
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 430px) {
+    .top {
+        background-position: 60% 50%;
+    }
+    .main-content {
+        height: 100%;
+        padding: 20px 0;
+        row-gap: 50px;
+    }
+    .line-3 {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .ingles-box {
+        width: 90%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+    }
+    .ingles-box i {
+        font-size: 1.5rem;
+    }
+    input {
+        font-size: 0.6rem;
+        padding-inline-start: 15px;
+    }
+    button {
+        font-size: 0.8rem;
+    }
+    .title-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .title {
+        font-size: 1.6rem;
+    }
+    .center-card {
+        width: 95%;
+    }
+    .card {
+        width: 8em;
+        height: 11em;
+        padding: 10px;
+    }
+    .card img {
+        width: 26px;
+        height: 26px;
+    }
+    .three img {
+        width: 18px;
+        height: 23px;
+    }
+    .title-card {
+        font-size: 0.7rem;
+    }
+    .card-text {
+        height: 40%;
+        font-size: 0.6rem;
+    }
+    .cadastro {
+        width: 80%;
+    }
+    .title-footer {
+        font-size: 1.3rem;
+    }
+    .span-footer h3 {
+        font-size: 1.1rem;
+    }
+    .button-footer button {
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 393px) {
+    button {
+        font-size: 0.7rem;
+    }
+    .cards {
+        height: 60em;
+    }
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .card {
+        width: 10em;
+        height: 13em;
+        padding: 10px;
+    }
+    .card img {
+        width: 26px;
+        height: 26px;
+    }
+    .three img {
+        width: 18px;
+        height: 23px;
+    }
+    .title-card {
+        font-size: 0.8rem;
+    }
+    .card-text {
+        height: 40%;
+        font-size: 0.7rem;
+    }
+    .chevron-circle {
+        width: 70px;
+        height: 70px;
+    }
+    .chevron-circle i {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 360px) {
+    .ingles-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+    }
+    input {
+        font-size: 0.5rem;
+        padding-inline-start: 15px;
+    }
+    button {
+        font-size: 0.7rem;
+    }
+    .cadastro {
+        width: 90%;
+    }
+    .title-footer {
+        font-size: 1rem;
+    }
+    .span-footer h3 {
+        font-size: 0.9rem;
+    }
+    .button-footer button {
+        height: 35px;
+        font-size: 0.8rem;
+    }
+}
