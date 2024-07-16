@@ -585,7 +585,7 @@ footer {
     }
 }
 
-@media(max-width: 393px) {
+@media(max-width: 412px) {
     button {
         font-size: 0.7rem;
     }
