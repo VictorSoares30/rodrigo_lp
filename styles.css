@@ -136,7 +136,7 @@ button:hover {
 }
 
 .center-card {
-    width: 60%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -160,9 +160,9 @@ button:hover {
 
 .card {
     background-color: #000;
-    width: 18em;
-    height: 18em;
-    border-radius: 8px;
+    width: 20em;
+    height: 20em;
+    border-radius: 10px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -194,6 +194,7 @@ button:hover {
 .card-text {
     font-size: 1.2rem;
     font-weight: 200;
+    text-align: justify;
 }
 
 footer {
